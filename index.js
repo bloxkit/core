@@ -100,8 +100,6 @@ export async function GetPlaceInfo(id) {
 	return place;
 }
 
-
-
 /**
  *
  * @param id
@@ -118,3 +116,18 @@ export async function GetPlaceName(id) {
 	return name;
 }
 
+/**
+ *
+ * @param id
+ * @type number
+ * @returns description
+ */
+
+/** Gets place's description  */
+export async function GetPlaceDescription(id) {
+	let description = await superagent.get(`https://www.roblox.com/places/api-get-details?assetId=${id}`).then((res) => {
+		return JSON.parse(res.text).Description;
+	});
+
+	return description;
+}
