@@ -8,14 +8,20 @@ Bloxkit is a ROBLOX api wrapper. As of now this package does not have authentica
 npm i -D bloxkit
 ```
 
-### Functions
-```js
-// returns: 'r6nted'
-GetUsername(287509940).then((username) => console.log(username));
+### Example Usage
 
-// returns: 287509940
-GetID('r6nted').then((id) => console.log(id));
+```js
+import { GetStatus } from 'bloxkit';
 
 // returns online or offline
 GetStatus(287509940).then((status) => console.log(status));
 ```
+
+### Docs
+
+Check out the docs [here](./docs/)
+
+#### Docs Guide
+
+- <u><b>?</b></u>: optional parameter
+- <u><b>!</b></u>: reccomended parameter
