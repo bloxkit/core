@@ -1,0 +1,33 @@
+{
+	"name": "bloxkit",
+	"version": "1.0.2",
+	"description": "ROBLOX api wrapper",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "node test/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/r6nted/bloxkit.git"
+	},
+	"keywords": [
+		"roblox",
+		"roblox-api",
+		"account",
+		"accounts",
+		"login",
+		"api",
+		"wrapper",
+		"api-wrapper"
+	],
+	"author": "r6nted",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/r6nted/bloxkit/issues"
+	},
+	"homepage": "https://github.com/r6nted/bloxkit#readme",
+	"dependencies": {
+		"superagent": "^8.0.0"
+	}
+}
