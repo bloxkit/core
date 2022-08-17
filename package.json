@@ -1,7 +1,7 @@
 {
 	"name": "bloxkit",
 	"version": "1.0.4",
-	"description": "ROBLOX api wrapper",
+	"description": "Easy to use ROBLOX API wrapper. No cookies, tokens, or roblosecurity codes involved.",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
