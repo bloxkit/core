@@ -7,4 +7,4 @@
 import * as blox from 'bloxkit';
 ```
 
- [**Next Page ➡️**]()
+ [**Next Page ➡️**](#)
