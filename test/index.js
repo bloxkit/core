@@ -1,3 +1,3 @@
 //@ts-ignore
-import { GetPlaceInfo } from '../index.js';
-GetPlaceInfo('287509940').then((place) => console.log(place));
+import { GetID } from '../index.js';
+GetID('r6nted').then((place) => console.log(place));
