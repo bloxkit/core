@@ -150,16 +150,15 @@ export async function GetGroupInfo(id) {
 
 /**
  *
- * @param id
- * @type number
- * @returns {JSON} info
+ * @param {String} keyword
+ * @returns {JSON} results
  */
 
-/** Gets group's info  */
-export async function GetGroupInfo(id) {
-	let info = await superagent.get(`https://groups.roblox.com/v1/groups/${id}`).then((res) => {
-		return JSON.parse(res.text);
-	});
+/** Gets related accounts by keyword  */
+export async function UserSearch(keyword) {
+	let res = await superagent.get(`https://users.roblox.com/v1/users/search?keyword=${keyword}&limit=10`);
 
-	return info;
+	return await superagent
+		.get(`https://users.roblox.com/v1/users/search?keyword=${keyword}&limit=10`)
+		.then((res) => JSON.parse(res.text).data);
 }

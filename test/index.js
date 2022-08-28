@@ -1,3 +1,4 @@
-//@ts-ignore
-import { GetID } from '../index.js';
-GetID('r6nted').then((place) => console.log(place));
+import { UserSearch } from '../index.js';
+(async () => {
+	console.log(await UserSearch('r6nted'));
+})();
