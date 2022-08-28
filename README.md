@@ -5,16 +5,21 @@ Bloxkit is a ROBLOX api wrapper. As of now this package does not have authentica
 ### Installation
 
 Using Npm:
+
 ```sh
 npm i -D bloxkit
 ```
+
 From Source:
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" width="15" align="center"> [**vscode.dev**](https://vscode.dev/github/r6nted/bloxkit) </br>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/768px-Repl.it_logo.svg.png" width="15" align="center"> [**repl.it**](https://replit.com/github/r6nted/bloxkit) </br>
-<img src="https://c.staticblitz.com/assets/favicon-7453cf0c12d349fb64b7aa2b69cc69c026f083a27f139f0839b1f4948bed6811.png" width="15" align="center"> [**stackblitz**](https://stackblitz.com/github/r6nted/bloxkit) </br>
-**command line:** </br>
-`git clone https://github.com/r6nted/bloxkit.git`
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" width="15" align="center"> [**vscode.dev**](https://vscode.dev/github/r6nted/bloxkit)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/768px-Repl.it_logo.svg.png" width="15" align="center"> [**repl.it**](https://replit.com/github/r6nted/bloxkit)
+
+<img src="https://c.staticblitz.com/assets/favicon-7453cf0c12d349fb64b7aa2b69cc69c026f083a27f139f0839b1f4948bed6811.png" width="15" align="center"> [**stackblitz**](https://stackblitz.com/github/r6nted/bloxkit)
+
+**command line:** `git clone https://github.com/r6nted/bloxkit.git`
+
 ### Example Usage
 
 ```js
@@ -33,12 +38,12 @@ Check out the docs [here](./docs/)
 - <u><b>?</b></u>: optional parameter
 - <u><b>!</b></u>: reccomended parameter
 
-
 ### Roblox Api endpoints
+
 > Credits to [matthewdean](https://github.com/matthewdean)
 
 | Site | Description |
-| -: | :- |
+| --: | :-- |
 | [abtesting.roblox.com](https://abtesting.roblox.com/docs) | Endpoints for the A/B Testing framework |
 | [accountinformation.roblox.com](https://accountinformation.roblox.com/docs) | All endpoints for acessing/modifying account information |
 | [accountsettings.roblox.com](https://accountsettings.roblox.com/docs) | All endpoints for account/user settings |
@@ -95,6 +100,6 @@ Check out the docs [here](./docs/)
 | [translationroles.roblox.com](https://translationroles.roblox.com/docs) | Manages translation roles of developers in game localization |
 | [translations.roblox.com](https://translations.roblox.com/docs) | Endpoints for requesting translations |
 | [twostepverification.roblox.com](https://twostepverification.roblox.com/docs) | Platform interface for the two step verification system |
-| [users.roblox.com](https://users.roblox.com/docs) | APIs for direct Roblox user information.
+| [users.roblox.com](https://users.roblox.com/docs) | APIs for direct Roblox user information. |
 | [versioncompatability.api.roblox.com](https://versioncompatability.api.roblox.com) | Handles version compatability |
 | [voice.roblox.com](https://voice.roblox.com/docs) | APIs for Voice calls |
