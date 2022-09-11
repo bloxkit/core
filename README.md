@@ -18,6 +18,7 @@ yarn add bloxkit
 
 ### Example Usage
 
+<<<<<<< HEAD
 > Bloxkit functions must be wrapped with `await`
 
 ```js
@@ -25,6 +26,11 @@ import { UserSearch } from '../index.js';
 
 let results = await UserSearch('bloxkit');
 console.log(results);
+=======
+```js
+import { UserSearch } from '../index.js';
+console.log(await UserSearch('r6nted'));
+>>>>>>> 382512ed34cf41e4c7541563f393532a5cf7b376
 ```
 
 ### Docs
