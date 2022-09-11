@@ -22,14 +22,9 @@ From Source:
 
 ### Example Usage
 
-> When using any from the package you must put it inside an async anonymous function
-
 ```js
 import { UserSearch } from '../index.js';
-
-(async () => {
-	console.log(await UserSearch('r6nted'));
-})();
+console.log(await UserSearch('r6nted'));
 ```
 
 ### Docs
