@@ -3,5 +3,6 @@ declare module namespace {
 		id: number;
 		username: string;
 		keyword: string;
+		roblosecurity: string;
 	}
 }
