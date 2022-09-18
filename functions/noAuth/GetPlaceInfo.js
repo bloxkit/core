@@ -1,18 +1,17 @@
 'use strict';
 
-import superagent from 'superagent';
+import phin from 'phin';
 
 /**
  *
- * @param id
- * @type number
+ * @param {Number} id The place's id
  * @returns place
  */
 
 /** Gets place info  */
 export async function GetPlaceInfo(id) {
-	let place = await superagent.get(`https://www.roblox.com/places/api-get-details?assetId=${id}`).then((res) => {
-		return JSON.parse(res.text);
+	let place = await phin(`https://www.roblox.com/places/api-get-details?assetId=${id}`).then((res) => {
+		return JSON.parse(res.body);
 	});
 
 	return place;

@@ -1,18 +1,16 @@
 'use strict';
 
-import superagent from 'superagent';
+import phin from 'phin';
 
 /**
- *
- * @param username
- * @type string
+ * @param {String} username
  * @returns id
  */
 
 /** Gets user's ID from username */
 export async function GetID(username) {
-	let ID = await superagent.get(`https://api.roblox.com/users/get-by-username?username=${username}`).then((res) => {
-		return JSON.parse(res.text).Id;
+	let ID = await phin(`https://api.roblox.com/users/get-by-username?username=${username}`).then((res) => {
+		return JSON.parse(res.body).Id;
 	});
 
 	return ID;

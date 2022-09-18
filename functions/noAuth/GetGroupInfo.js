@@ -1,18 +1,17 @@
 'use strict';
 
-import superagent from 'superagent';
+import phin from 'phin';
 
 /**
  *
- * @param id
- * @type number
+ * @param {Number} id
  * @returns {JSON} info
  */
 
 /** Gets group's info  */
 export async function GetGroupInfo(id) {
-	let info = await superagent.get(`https://groups.roblox.com/v1/groups/${id}`).then((res) => {
-		return JSON.parse(res.text);
+	let info = await phin(`https://groups.roblox.com/v1/groups/${id}`).then((res) => {
+		return JSON.parse(res.body);
 	});
 
 	return info;

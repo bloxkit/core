@@ -1,21 +1,17 @@
 'use strict';
 
-import superagent from 'superagent';
+import phin from 'phin';
 
 /**
+ * Gets user's avatar from their ID
  *
- * @param id
- * @type number
- * @returns imageUrl
+ * @param {Number} id
+ * @async
+ * @example await GetAvatar(2435143522)
  */
 
-/** Gets user's avatar from their ID */
 export async function GetAvatar(id) {
-	let imageUrl = await superagent
-		.get(`https://thumbnails.roblox.com/v1/users/avatar-headshot?size=420x420&format=png&userIds=${id}`)
-		.then((res) => {
-			return JSON.parse(res.text).imageUrl;
-		});
+	let res = await phin(`https://thumbnails.roblox.com/v1/users/avatar-headshot?size=420x420&format=png&userIds=${id}`);
 
-	return imageUrl;
+	return JSON.parse(res.body).data[0].imageUrl;
 }
