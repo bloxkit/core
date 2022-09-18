@@ -15,8 +15,10 @@ import { GetUsername } from './functions/noAuth/GetUsername.js';
 import { GetUsernameHistory } from './functions/noAuth/GetUsernameHistory.js';
 import { UserSearch } from './functions/noAuth/UserSearch.js';
 import { GetCollectibles } from './functions/noAuth/GetCollectibles.js';
+import { GetUserBadges } from './functions/noAuth/GetUserBadges.js';
 
 export {
+	GetUserBadges,
 	GetAvatar,
 	GetID,
 	GetGroupInfo,

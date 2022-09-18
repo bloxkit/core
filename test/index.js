@@ -1,2 +1,2 @@
-import { GetCollectibles } from '../functions/noAuth/GetCollectibles.js';
-console.log(await GetCollectibles(2435143522));
+import GetUserBadges from '../functions/noAuth/GetUserBadges.js';
+await GetUserBadges({ username: 'r6nted' }).then((res) => console.log(res));
