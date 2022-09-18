@@ -7,7 +7,7 @@ import phin from 'phin';
  * @param {Number} id
  * @returns username
  * @async
- * @depreacted
+ * @deprecated
  */
 
 /** Gets username from ID */

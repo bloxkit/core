@@ -3,9 +3,9 @@
 import phin from 'phin';
 
 /**
- *
+ * Gets place info
  * @param {Number} id The place's id
- * @returns place
+ * @returns {JSON} place
  */
 
 /** Gets place info  */

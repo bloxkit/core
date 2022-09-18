@@ -3,7 +3,7 @@
 import phin from 'phin';
 
 /**
- *
+ * Gets group's info
  * @param {Number} id
  * @returns {JSON} info
  */

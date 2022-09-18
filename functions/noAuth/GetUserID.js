@@ -3,8 +3,8 @@
 import phin from 'phin';
 
 /**
+ * Gets user's ID from username
  * @param {String} username
- * @returns id
  * @async
  * @deprecated
  */

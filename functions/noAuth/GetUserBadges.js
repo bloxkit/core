@@ -7,12 +7,11 @@ import phin from 'phin';
  *
  * @param {Number} id Optional
  * @param {String} username Optional
- * @param {Number} limit Optional
  * @async This function is asynchronous
  * @example console.log(await GetUserBadges(287509940))
  */
 
-export async function GetUserBadges({ id, username, limit }) {
+export async function GetUserBadges({ id, username }) {
 	if (!id && !username) throw new Error('You must provide either a username or id');
 	if (!id) {
 		let id = await phin(`https://api.roblox.com/users/get-by-username?username=${username}`).then((res) => {
