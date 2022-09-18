@@ -21,9 +21,9 @@ yarn add bloxkit
 > Bloxkit functions must be wrapped with `await`
 
 ```js
-import { UserSearch } from 'bloxkit';
+import { GetUsernameHistory } from 'bloxkit';
 
-let results = await UserSearch('bloxkit');
+let results = await GetUsernameHistory({ username: 'r6nted' });
 console.log(results);
 ```
 
