@@ -3,7 +3,7 @@
 	Easy to use ROBLOX API wrapper
 */
 
-export const version = '1.1.7';
+export const version = '1.1.9';
 
 export { GetGroupInfo } from './functions/group/GetGroupInfo.js';
 export { GetGroupDescription } from './functions/group/GetGroupDescription.js';
@@ -20,3 +20,12 @@ export { GetPlaceName } from './functions/place/GetPlaceName.js';
 export { GetPlaceUrl } from './functions/place/GetPlaceUrl.js';
 export { GetPlaceCreator } from './functions/place/GetPlaceCreator.js';
 export { GetPlaceReportUrl } from './functions/place/GetPlaceReportUrl.js';
+
+export { GetAvatar } from './functions/user/GetAvatar.js';
+export { GetCollectibles } from './functions/user/GetCollectibles.js';
+export { GetStatus } from './functions/user/GetStatus.js';
+export { GetUserBadges } from './functions/user/GetUserBadges.js';
+export { GetUserID } from './functions/user/GetUserID.js';
+export { GetUsername } from './functions/user/GetUsername.js';
+export { GetUsernameHistory } from './functions/user/GetUsernameHistory.js';
+export { UserSearch } from './functions/user/UserSearch.js';

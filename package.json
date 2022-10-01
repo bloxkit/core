@@ -1,6 +1,6 @@
 {
 	"name": "bloxkit",
-	"version": "1.1.7",
+	"version": "1.1.9",
 	"description": "Simple to use ROBLOX api wrapper with no authentication",
 	"main": "index.js",
 	"type": "module",
@@ -9,7 +9,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/r6nted/bloxkit.git"
+		"url": "git+https://github.com/bloxkit/core.git"
 	},
 	"keywords": [
 		"roblox",
@@ -24,9 +24,9 @@
 	"author": "r6nted",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/r6nted/bloxkit/issues"
+		"url": "https://github.com/bloxkit/core/issues"
 	},
-	"homepage": "https://github.com/r6nted/bloxkit#readme",
+	"homepage": "https://blox.rinted.ml",
 	"dependencies": {
 		"phin": "^3.6.1"
 	}
