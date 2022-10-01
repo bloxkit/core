@@ -3,27 +3,20 @@
 	Easy to use ROBLOX API wrapper
 */
 
-// No Authentication Functions
-import { GetAvatar } from './functions/noAuth/GetAvatar.js';
-import { GetUserID } from './functions/noAuth/GetUserID.js';
-import { GetGroupInfo } from './functions/noAuth/GetGroupInfo.js';
-import { GetPlaceInfo } from './functions/noAuth/GetPlaceInfo.js';
-import { GetStatus } from './functions/noAuth/GetStatus.js';
-import { GetUsername } from './functions/noAuth/GetUsername.js';
-import { GetUsernameHistory } from './functions/noAuth/GetUsernameHistory.js';
-import { UserSearch } from './functions/noAuth/UserSearch.js';
-import { GetCollectibles } from './functions/noAuth/GetCollectibles.js';
-import { GetUserBadges } from './functions/noAuth/GetUserBadges.js';
+export const version = '1.1.7';
 
-export {
-	GetUserBadges,
-	GetAvatar,
-	GetUserID,
-	GetGroupInfo,
-	GetPlaceInfo,
-	GetStatus,
-	GetUsername,
-	GetUsernameHistory,
-	UserSearch,
-	GetCollectibles,
-};
+export { GetGroupInfo } from './functions/group/GetGroupInfo.js';
+export { GetGroupDescription } from './functions/group/GetGroupDescription.js';
+export { GetGroupName } from './functions/group/GetGroupName.js';
+export { GetGroupOwner } from './functions/group/GetGroupOwner.js';
+export { GetGroupShout } from './functions/group/GetGroupShout.js';
+export { GetGroupMemberCount } from './functions/group/GetGroupMemberCount.js';
+
+export { GetPlaceInfo } from './functions/place/GetPlaceInfo.js';
+export { GetPlaceDescription } from './functions/place/GetPlaceDescription.js';
+export { GetPlaceFavorites } from './functions/place/GetPlaceFavorites.js';
+export { GetPlaceMaxPlayers } from './functions/place/GetPlaceMaxPlayers.js';
+export { GetPlaceName } from './functions/place/GetPlaceName.js';
+export { GetPlaceUrl } from './functions/place/GetPlaceUrl.js';
+export { GetPlaceCreator } from './functions/place/GetPlaceCreator.js';
+export { GetPlaceReportUrl } from './functions/place/GetPlaceReportUrl.js';

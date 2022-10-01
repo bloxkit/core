@@ -1,2 +1,2 @@
-import GetUserBadges from '../functions/noAuth/GetUserBadges.js';
-await GetUserBadges({ username: 'r6nted' }).then((res) => console.log(res));
+import { GetPlaceInfo } from '../functions/place/GetPlaceInfo.js';
+await GetPlaceInfo(8884433153).then((r) => console.log(r));
