@@ -1,37 +1,28 @@
-# <img src="https://github.com/r6nted/bloxkit/blob/main/thumb.png?raw=true" />
+<img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="Bloxkit Logo" src="https://github.com/bloxkit/images/blob/main/icon.png?raw=true">
 
-Bloxkit is a ROBLOX api wrapper. As of now this package does not have authentication, so you cannot use this to block people, view your friend requests, and other endpoints. This package is still in it's beta stage so please bare with me. Contributions are welcomed.
+# Bloxkit
 
-### Installation
+[![View on NPM](https://img.shields.io/badge/NPM-purple?style=for-the-badge)](https://npmjs.com/package/bloxkit) [![View on Yarn](https://img.shields.io/badge/Yarn-blue?style=for-the-badge)](https://yarnpkg.com/package/bloxkit)
 
-Using Npm:
+> Easy to use lightweight ROBLOX Api wrapper used by over 700+ projects.
 
-```sh
-npm i bloxkit
-```
-
-Using Yarn:
+## Installation
 
 ```sh
-yarn add bloxkit
+npm init -y
+npm install bloxkit
 ```
 
-### Example Usage
-
-> Bloxkit functions must be wrapped with `await`
+## Example Usage
 
 ```js
-import { GetUsernameHistory } from 'bloxkit';
+import * as Bloxkit from 'bloxkit';
+let uid = 34324323; // player's id
 
-let results = await GetUsernameHistory({ username: 'r6nted' });
-console.log(results);
+// logs player's avatar image
+console.log(await Bloxkit.GetUserAvatar);
 ```
 
-### Docs
+## Docs
 
-Check out the docs [here](./docs/)
-
-#### Docs Guide
-
-- <u><b>?</b></u>: optional parameter
-- <u><b>!</b></u>: reccomended parameter
+Read the docs [here](https://docs.rinted.ml).
