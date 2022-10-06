@@ -1,9 +1,12 @@
 {
 	"name": "bloxkit",
-	"version": "1.2.2",
+	"version": "1.2.3",
 	"description": "Simple to use ROBLOX api wrapper with no authentication",
 	"main": "index.js",
-	"type": "module",
+	"exports": {
+		"import": "./module/index.mjs",
+		"require": "./common/index.cjs"
+	},
 	"scripts": {
 		"test": "node test/index.js"
 	},

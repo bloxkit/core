@@ -1,2 +1,4 @@
-import { GetPlaceInfo } from '../functions/place/GetPlaceInfo.js';
-await GetPlaceInfo(8884433153).then((r) => console.log(r));
+const r = require('../common/index.cjs');
+(async () => {
+	await r.GetStatus({ username: 'r6nted' }).then((a) => console.log(a));
+})();
