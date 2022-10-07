@@ -2,7 +2,7 @@
 
 [![View on NPM](https://img.shields.io/badge/View%20On%20NPM-purple?style=for-the-badge)](https://npmjs.com/package/bloxkit) [![View on Yarn](https://img.shields.io/badge/View%20On%20Yarn-blue?style=for-the-badge)](https://yarnpkg.com/package/bloxkit)
 
-> Easy to use lightweight ROBLOX Api wrapper used by over 700+ projects.
+> Easy to use lightweight ROBLOX Api wrapper used by over 900+ projects.
 
 ## Installation
 
